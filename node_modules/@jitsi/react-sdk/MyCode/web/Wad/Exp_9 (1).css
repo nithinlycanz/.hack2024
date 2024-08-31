@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(#DD5E89,#F7BB97);
+    height:100vh;
+    font-family: 'popins',sans-serif;
+}
+table{
+    position:relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    border-collapse: collapse;
+}
+table td th{
+    padding: 5px;
+}
+thead{
+    background-color: lightskyblue;
+}
+table tbody img{
+    width: 150px;
+}
+table tbody tr{
+    background-color: lightgray;
+}
+tfoot{
+    background-color: lightskyblue;
+}

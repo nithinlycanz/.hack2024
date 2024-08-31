@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Visit</title>
+    <script src="https://meet.jit.si/external_api.js"></script>
+</head>
+<body>
+    <div id="jitsi-container" style="width: 100%; height: 600px;"></div>
+
+    <script>
+        function startJitsi() {
+            const domain = "meet.jit.si"; // Use the public Jitsi server that doesn't require login
+            const options = {
+                roomName: `Room-${Math.random().toString(36).substr(2, 8)}`,  // Generate a random room name
+                width: "100%",
+                height: 600,
+                parentNode: document.querySelector("#jitsi-container"),
+                interfaceConfigOverwrite: { 
+                    SHOW_JITSI_WATERMARK: false,
+                    SHOW_WATERMARK_FOR_GUESTS: false
+                },
+                configOverwrite: {
+                    disableDeepLinking: true
+                }
+            };
+            const api = new JitsiMeetExternalAPI(domain, options);
+        }
+
+        startJitsi();
+    </script>
+</body>
+</html>
