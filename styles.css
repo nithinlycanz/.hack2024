@@ -15,6 +15,7 @@ body{
     background-repeat: no-repeat;  /* Prevent the background image from repeating */
 }
 .container{
+  
   position: absolute;
   top: 50%;
   left: 30%;
