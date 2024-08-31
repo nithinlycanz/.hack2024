@@ -1,0 +1,11 @@
+/* Webfont: Mersad-SemiBold */@font-face {
+    font-family: 'MersadSemBd';
+    src: url('Mersad-SemiBold.eot'); /* IE9 Compat Modes */
+    src: url('Mersad-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Mersad-SemiBold.woff') format('woff'), /* Modern Browsers */
+         url('Mersad-SemiBold.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

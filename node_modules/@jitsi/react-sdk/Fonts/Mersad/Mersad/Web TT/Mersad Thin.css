@@ -1,0 +1,11 @@
+/* Webfont: Mersad-Thin */@font-face {
+    font-family: 'MersadThin';
+    src: url('Mersad-Thin.eot'); /* IE9 Compat Modes */
+    src: url('Mersad-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Mersad-Thin.woff') format('woff'), /* Modern Browsers */
+         url('Mersad-Thin.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

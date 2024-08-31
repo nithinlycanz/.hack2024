@@ -1,0 +1,11 @@
+/* Webfont: Mersad-Light */@font-face {
+    font-family: 'MersadLight';
+    src: url('Mersad-Light.eot'); /* IE9 Compat Modes */
+    src: url('Mersad-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Mersad-Light.woff') format('woff'), /* Modern Browsers */
+         url('Mersad-Light.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

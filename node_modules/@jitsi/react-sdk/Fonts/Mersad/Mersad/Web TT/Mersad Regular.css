@@ -1,0 +1,11 @@
+/* Webfont: Mersad-Regular */@font-face {
+    font-family: 'Mersad';
+    src: url('Mersad-Regular.eot'); /* IE9 Compat Modes */
+    src: url('Mersad-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Mersad-Regular.woff') format('woff'), /* Modern Browsers */
+         url('Mersad-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
